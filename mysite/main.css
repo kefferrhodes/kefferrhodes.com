@@ -2,6 +2,11 @@ body {
 	background-color: #121420;
 }
 
+body.gradient {
+	background: rgb(18,20,32);
+	background: linear-gradient(90deg, rgba(18,20,32,1) 23%, rgba(183,109,104,1) 100%);
+}
+
 body.work {
 	background: url(photos/work.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -14,7 +19,15 @@ body.index {
 	background: url(photos/3.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover;	
+	background-size: cover;
+}
+
+body.webdev {
+	background: url(photos/webdev.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;	
 	background-size: cover;
 }
 
@@ -33,10 +46,18 @@ h2 {
 }
 
 h3 {
-	text-align: center;
 	font-size: 250%;
 	font-family: 'Playfair Display', serif;
 	color: white;
+}
+p {
+	color: white;
+}
+
+span.bgop {
+	color: white;
+	background: rgba(0, 0, 0, .5);
+	padding: 1.8px;
 }
 
 h1.contact {
@@ -50,6 +71,14 @@ h1.work {
 	text-align: center;
 	color: white;
 	font-size: 700%;
+	font-family: 'Playfair Display', serif;
+	text-shadow: 5px 5px black;
+}
+
+h1.webdev {
+	text-align: center;
+	color: white;
+	font-size: 550%;
 	font-family: 'Playfair Display', serif;
 	text-shadow: 5px 5px black;
 }
@@ -121,15 +150,15 @@ p.wiw {
 }
 
 .grid-container {
-	border: 4px solid green;
+	/*border: 4px solid green;*/
 }
 
 .grid-row {
-	border: 3px solid red;
+	/*border: 3px solid red;*/
 }
 
 .grid-col {
-	border: 3px dotted blue;
+	/*border: 3px dotted blue;*/
 }
 
 .navbar {
@@ -213,6 +242,13 @@ p.wiw {
 .hamburger {
 	color: white;
 	font-size: 40px;
+}
+
+img.cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
  /*Testing */
