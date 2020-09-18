@@ -23,16 +23,8 @@ body.index {
 	background-size: cover;
 }
 
-body.music {
-	background: url(photos/heather.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;	
-	background-size: cover;
-}
-
 body.webdev {
-	background: url(photos/van.jpg) no-repeat center center fixed;
+	background: url(photos/webdev.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;	
@@ -62,7 +54,7 @@ p {
 	color: white;
 }
 
-.bgop {
+span.bgop {
 	color: white;
 	background: rgba(0, 0, 0, .5);
 	padding: 1.8px;
